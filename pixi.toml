@@ -1,0 +1,18 @@
+[workspace]
+authors = ["Dr Maeve Murphy Quinlan <mmurphyquinlan@gmail.com>"]
+channels = ["conda-forge"]
+name = "parks-report"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.15.2,<3.16"
+pandas = ">=3.1.1,<4"
+polars = ">=2.1.0,<3"
+seaborn = ">=0.13.2,<0.14"
+numpy = ">=2.5.4,<3"
+matplotlib = ">=3.11.2,<4"
+geopandas = ">=1.2.0,<2"
+jupyter = ">=1.1.1,<2"
